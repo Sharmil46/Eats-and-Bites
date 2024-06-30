@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.head{
+    font-family:"Great Vibes", cursive;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color: rgb(6, 99, 26);
+  text-align: center;
+  font-size: 50px;
+  /* background-color: rgb(18, 19, 18); */
+  letter-spacing: 4px;
+}
+.nav{
+   margin-left: 60px;
+    height: 50px;
+    width: 90%;
+    border-radius: 25px;
+    background-color: green;
+}
+.list{
+    color: white;
+    display: flex;
+    list-style: none;
+    margin-top: 10px;
+    margin-left: 50px;
+    
+}
+.list a{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
+    font-size: large;
+
+}
+#desserts{
+    display: flex;
+    background-color: rgb(240, 194, 240);
+    /* height: 400px; */
+    /* width: 80%; */
+
+    margin-top: 20px;
+    /* margin-left: 170px; */
+    gap: 100px;
+    border-radius:15px 95px/110px 95px;
+    /* background-image: url(../IMAGES/bga.png); */
+    
+    
+}
+.cake{
+    margin-top: 100px;
+    margin-top: 70px;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+ .para{
+   margin-top: 30px;
+   letter-spacing: 1px;
+   font-family: Arial, Helvetica, sans-serif;
+   justify-content: center;
+ }
+ #first{
+    display: flex;
+    margin-top: 60px;
+ }
+ .cher{
+    text-align: center;
+    font-size: 35px;
+    letter-spacing: 3px;
+    font-weight: 900;
+    margin-top: 50px;
+    margin-left: 50px;
+ }
+ #aside{
+    display: flex;
+    gap: 50px;
+ }
+ #natural{
+    display: flex;
+ }
+ #frits{
+    display: flex;
+   
+    gap: 50px;
+ }
+ 
+ .card .col-md-4
+ {
+    width: 250px;
+    margin: 0 10px; 
+     box-shadow: 0 0 20px 2px rgba(59, 59, 59, 0.1); 
+    transition: 2s;
+ }
+ .col-md-4:hover{
+    transform: scale(1.2);
+    z-index: 2;
+ }
+.abt{
+   font-family:"Great Vibes", cursive;
+   font-optical-sizing: auto;
+   font-weight: 600;
+   font-style: normal;
+   color: rgb(6, 99, 26);
+   text-align: center;
+   font-size: 80px;
+   /* background-color: rgb(18, 19, 18); */
+   letter-spacing: 4px;
+   margin-top: 5px;
+}
+#comes{
+   display: flex;
+}
